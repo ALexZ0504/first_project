@@ -20,6 +20,7 @@
   display: flex;
   margin: 0px;
   padding: 0px;
+  position: relative;
 }
 
 .header__title {
@@ -53,7 +54,7 @@
 }
 
 .header__square-pic {
-  position: absolute;
+  position: relative;
   top: 64px;
   right: 0px;
   height: 568px;
@@ -68,7 +69,7 @@
 }
 
 .logo_place_header {
-  position: absolute;
+  position: relative;
   left: 64px;
   top: 30px;
 }
