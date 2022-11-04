@@ -1,6 +1,6 @@
-div, p, section, h1, h2, a, ul, img {
+/* div, p, section, h1, h2, a, ul, img {
   border: 1px solid red;
-}
+} */
 
 .page {
   min-width: 1100px;
@@ -91,14 +91,10 @@ div, p, section, h1, h2, a, ul, img {
   margin: 100px 0px;
   padding: 0px;
   width: 80%;
-  align-self: center;
 }
 
 .two-columns__brief {
-  margin: 0px;
-  padding: 0px;
   width: 175px;
-  display: inline-block;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -106,19 +102,14 @@ div, p, section, h1, h2, a, ul, img {
 }
 
 .two-columns__main-text {
-  margin: 0px;
-  padding: 0px;
   width: 80%;
   min-width: 784px;
-  display: inline-block;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
 
 .two-columns__paragraph {
-  margin: 0px;
-  padding: 0px;
   margin-bottom: 30px;
 }
 
@@ -165,11 +156,9 @@ div, p, section, h1, h2, a, ul, img {
 .table {
   width: 1100px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   margin: auto;
   margin-bottom: 100px;
-  align-content: center;
   flex-wrap: wrap;
 }
 
@@ -239,9 +228,7 @@ div, p, section, h1, h2, a, ul, img {
 }
 
 .kaufman {
-  display:flex;
   position: relative;
-  flex-direction: column;
   background-color: #1f1f1f;
   overflow: hidden;
 }
@@ -281,6 +268,7 @@ div, p, section, h1, h2, a, ul, img {
   width: 200px;
   z-index: 1;
   color:white;
+  margin-top: 80px;
 }
 
 .table__heading_theme_dark {
@@ -350,7 +338,6 @@ div, p, section, h1, h2, a, ul, img {
 .footer__column-links {
   padding-left: 0%;
   list-style: none;
-  margin-top: 0%;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
